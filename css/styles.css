@@ -1,0 +1,62 @@
+
+/* CSS for my webpage */
+
+h1 {
+    color:black;
+    font-size: 3em;
+    font-family: Macondo;
+}
+
+h3 {
+    color:white; 
+    font-family: Macondo;
+
+}
+
+.img_caption {
+    display:block;
+    font-size:0.9em;
+    position: relative;
+    margin: 0;
+    padding: 5px 0 0 0;
+}
+
+.img-fulltext-none img, .img-fulltext-left img, .img-fulltext-right img {
+    float: none !important;
+  }
+
+.img-fulltext-none, .img-fulltext-left, .img-fulltext-right {
+    float: none;
+    margin: 0 0 0;
+    overflow: hidden;
+    position: relative;
+  }
+
+.img-fulltext-none:hover img, .img-fulltext-left:hover img, .img-fulltext-right:hover img {
+    -webkit-transform: scale(1.2) rotateZ(-5deg);
+    -moz-transform: scale(1.2) rotateZ(-5deg);
+    -ms-transform: scale(1.2) rotateZ(-5deg);
+    -o-transform: scale(1.2) rotateZ(-5deg);
+    transform: scale(1.2) rotateZ(-5deg);
+  }
+  .img-fulltext-none img, .img-fulltext-left img, .img-fulltext-right img {
+    float: none !important;
+  }
+  .img-fulltext-none img, .img-fulltext-left img, .img-fulltext-right img {
+    display: block;
+    height: auto !important;
+    max-width: 100% !important;
+    -webkit-transform: scale(1) rotateZ(0deg);
+    -moz-transform: scale(1) rotateZ(0deg);
+    -ms-transform: scale(1) rotateZ(0deg);
+    -o-transform: scale(1) rotateZ(0deg);
+    transform: scale(1) rotateZ(0deg);
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    width: 100% !important;
+  }
+
+
